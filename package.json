@@ -1,0 +1,12 @@
+{
+  "name": "cron-scheduler-1a479f",
+  "version": "1.0.0",
+  "description": "A cron-scheduler utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["cron-scheduler", "utility"],
+  "license": "MIT"
+}

